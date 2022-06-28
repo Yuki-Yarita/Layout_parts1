@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.sub-box {
+  width: 100%;
+  margin-top: 50px;
+  display: table;
+}
+
+.main-area .sub-box:first-child {
+  margin-top: 0;
+}
+
+.box {
+  padding: 20px;
+  text-align: center;
+  display: table-cell;
+}
+
+.left {
+  background: #ff7b7b;
+  width: 300px;
+}
+
+.center {
+  background: #7b86ff;
+}
+
+.right {
+  background: #fff27b;
+  width: 300px;
+}
+
+.left-green {
+  background: #7bff91;
+}
+
+.left-pink {
+  background: #ff7be2;
+  width: 400px;
+}
+
+.right-orange {
+  background: #ffc67b;
+  width: 400px;
+}
+
+.right-sky {
+  background: #7bf2ff;
+}
