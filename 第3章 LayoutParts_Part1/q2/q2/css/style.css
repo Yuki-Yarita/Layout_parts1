@@ -16,3 +16,11 @@
   margin: 30px;
   list-style: none;
 }
+
+.list:first-child {
+  margin-left: 0;
+}
+
+.list:last-child {
+  margin-right: 0;
+}
